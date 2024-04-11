@@ -81,3 +81,4 @@ flutter run
 ![Germany](outputs/img3.png)
 ![Spain](outputs/img4.png)
 ![Poland](outputs/img5.png)
+![France](outputs/img6.png)
