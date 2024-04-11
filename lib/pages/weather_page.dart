@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:lottie/lottie.dart';
 import 'package:weather_app/classes/weather_class.dart';
 import 'package:weather_app/api/api_handler.dart';
+import 'package:weather_app/api/api_key.dart';
 import 'package:intl/intl.dart';
 
 class WeatherPage extends StatefulWidget {
@@ -14,7 +15,8 @@ class WeatherPage extends StatefulWidget {
 
 class _WeatherPageState extends State<WeatherPage> {
   DateTime now = DateTime.now();
-  final _weatherService = WeatherService(apiKey: "API_KEY_HERE");
+
+  final _weatherService = WeatherService(apiKey: api_key);
   Weather? _weather;
 
   _getWeather() async {
