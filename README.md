@@ -1,6 +1,14 @@
 # Flutter Weather App
 
-A Weather app made using Flutter and the [package name](https://pub.dev/packages/<package>) package.
+A Weather app made using Flutter and the [OpenWeatherMap](https://openweathermap.org) API
+
+The weather animations are from [Lottie](https://lottiefiles.com/vdr0uy2wwsoljqtc)
+
+The weather app includes extra features such as a refresh button that checks the users location and updates the app accordingly without the user needing to relaunch the app.
+
+### **The project includes the following packages:**
+
+[intl](https://pub.dev/packages/intl) | [lottie](https://pub.dev/packages/lottie) | [http](https://pub.dev/packages/lottie) | [geocoding](https://pub.dev/packages/geocoding) | [geolocator](https://pub.dev/packages/geolocator)
 
 ## Flutter Project Setup
 
