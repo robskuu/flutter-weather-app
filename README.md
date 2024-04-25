@@ -33,12 +33,16 @@ Copy the `assets` folder and all its contents to the root ot the project
 
 Replace the contents of the `lib` folder with the contents of the `lib` folder in this github repo
 
-## 4. Add android location permissions
+## 4. Add Android location permissions
 
 Navigate to `android > app > src > main > AndroidManifest.xml`
 
-**Add the lines to the top of the file:**
-
+**Add the following lines to the top of the file in inside \<manifest xmlns:android="http://schemas.android.com/apk/res/android"> and before \<application>**
+```xml
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+```
+**It should look something like this:**
 ```xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!--Add this line-->
