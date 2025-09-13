@@ -8,7 +8,7 @@ The weather app includes extra features such as a refresh button that checks the
 
 ### **The project includes the following packages:**
 
-[intl](https://pub.dev/packages/intl) | [lottie](https://pub.dev/packages/lottie) | [http](https://pub.dev/packages/lottie) | [geocoding](https://pub.dev/packages/geocoding) | [geolocator](https://pub.dev/packages/geolocator)
+[intl](https://pub.dev/packages/intl) | [lottie](https://pub.dev/packages/lottie) | [http](https://pub.dev/packages/http) | [geocoding](https://pub.dev/packages/geocoding) | [geolocator](https://pub.dev/packages/geolocator)
 
 ## Flutter Project Setup
 
